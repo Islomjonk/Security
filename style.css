@@ -11,3 +11,7 @@ body{
     display: grid;
     place-items: center;
 }
+h3{
+    color: #fff;
+    font-size: 10vw;
+}
