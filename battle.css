@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #f3ac3c;
+}
+.display{
+    display: flex;
+    position: relative;
+}
+.main{
+    width: 150px;
+    height: 150px;
+    background-color: #998325;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(400px) translateY(300px);
+}
+.tor{
+    width: 7px;
+    height: 50px;
+    background-color: black;
+    z-index: 10;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius:5px;
+}
+.main2{
+    width: 100px;
+    height: 100px;
+    background-color: #998325;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-left: 100px;
+    z-index: 10;
+    transform: translateX(400px) translateY(300px);
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    background-color:#f3ac3c;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 25px;
+}
+.circle2{
+    width: 50px;
+    height: 50px;
+    background-color:black;
+    border-radius: 50%;
+    margin: auto;
+    transform: translateY(5px);
+}
+.ustun{
+    width: 200px;
+    height: 20px;
+    background-color: black;
+    margin-left: 100px;
+    transform: translateY(-40px);
+}
+.katak{
+    width: 50px;
+    height: 40px;
+    background-color:#998325 ;
+    transform: translateX(300px) translateY(-70px
+    );
+    border-radius: 20px;
+
+}
+.j{
+    width: 7px;
+    height: 30px;
+    background-color: black;
+    z-index: 10;
+    border-radius:5px;
+    transform: translateX(10px
+    );
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+.bir{
+    width: 650px;
+    height: 400px;
+    background-color: white;
+    border-radius: 45% 0 45% 0;
+    border-left: 2px solid rgb(66, 66, 255);
+    border-right: 2px solid rgb(255, 72, 72);
+    border-top: 1px solid rgb(163, 163, 163);
+    border-bottom: 1px solid rgb(163, 163, 163);
+    box-shadow: 5px 5px 20px 20px rgb(241, 241, 241);
+    margin: auto;
+    margin-top: 150px;
+}
+.ikki{
+    width: 570px;
+    height: 330px;
+    background-color: white;
+    border-radius:0 50% 0 50%;
+    box-shadow: 3px 3px 15px 15px rgb(241, 241, 241);
+    transform: translateY(-380px) translateX(390px);
+}
+.ikki h1{
+    text-align: center;
+    color: orangered;
+    font-size: 35px;
+    padding: 50px 100px 30px 20px;
+}
+.ikki input{
+    margin-left: 140px;
+    border: none;
+    border-bottom: 2px solid orangered;
+    width: 250px;
+    height: 40px;
+    border-style: none;
+    border-bottom: 2px solid orangered;
+}
+.send{
+    margin-left: 140px;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: orangered;
+}
+.send span{
+    font-size: 16px;
+    color: white;
+}
